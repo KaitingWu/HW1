@@ -5,9 +5,9 @@ This repository contains the complete codebase for a local **AIoT (Artificial In
 ## 🌟 Demo
 | Flask `/health` Endpoint | Streamlit Dashboard |
 | --- | --- |
-| ![Flask Health](screenshots/flask_health.png) | ![Streamlit Top](screenshots/streamlit_dashboard.png) |
+| ![Flask Health](Docs/screenshots/flask_health.png) | ![Streamlit Top](Docs/screenshots/streamlit_dashboard.png) |
 | **Raw Sensor Data Table** |
-| ![Streamlit Table](screenshots/streamlit_table.png) |
+| ![Streamlit Table](Docs/screenshots/streamlit_table.png) |
 
 ---
 
@@ -40,21 +40,24 @@ pip install -r requirements.txt
 ```
 
 ### 2. Start the Services
-Run the following commands in three independent terminal windows (with your `venv` activated):
+Run the following commands in three independent terminal windows (with your `venv` activated) inside the `Python_Server` folder:
 
 **Terminal 1: Start the Backend Database Server**
 ```bash
+cd Python_Server
 python app.py
 ```
 
 **Terminal 2: Start the Physical Device OR the Simulator**
 ```bash
+cd Python_Server
 # If you don't have an ESP32 connected:
 python esp32_sim.py
 ```
 
 **Terminal 3: Start the Streamlit Dashboard**
 ```bash
+cd Python_Server
 streamlit run dashboard.py
 ```
 
@@ -65,4 +68,4 @@ streamlit run dashboard.py
 ---
 
 ## 📝 Additional Documentation
-For an in-depth chronological breakdown of the setup, debugging log, API schemas, and known bug resolutions, please review the included **[SYSTEM_REPORT.md](SYSTEM_REPORT.md)** document.
+For an in-depth chronological breakdown of the setup, debugging log, API schemas, and known bug resolutions, please review the included **[SYSTEM_REPORT.md](Docs/SYSTEM_REPORT.md)** document.
