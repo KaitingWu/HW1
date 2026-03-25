@@ -5,7 +5,7 @@ This repository contains the complete codebase for a local **AIoT (Artificial In
 ## 🌟 Demo
 
 ### Hardware Status
-![Hardware Status](Docs/screenshots/S__22446088.jpg)
+<img src="Docs/screenshots/S__22446088.jpg" width="400" alt="Hardware Status" />
 
 ### Software Dashboards
 | Flask `/health` Endpoint | Streamlit Dashboard |
