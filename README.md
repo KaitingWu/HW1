@@ -3,6 +3,11 @@
 This repository contains the complete codebase for a local **AIoT (Artificial Intelligence of Things) Sensor Monitoring Pipeline**. It demonstrates how to collect environmental data from an ESP32 microcontroller, transmit it via WiFi, store it locally using SQLite, and visualize the findings through a real-time web dashboard.
 
 ## 🌟 Demo
+
+### Hardware Status
+![Hardware Status](Docs/screenshots/S__22446088.jpg)
+
+### Software Dashboards
 | Flask `/health` Endpoint | Streamlit Dashboard |
 | --- | --- |
 | ![Flask Health](Docs/screenshots/flask_health.png) | ![Streamlit Top](Docs/screenshots/streamlit_dashboard.png) |
